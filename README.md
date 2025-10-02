@@ -8,6 +8,8 @@ All pages are in the hands of the Codexy team and Aqua Developement, and soon ot
 
 🔗 » Codexy: https://discord.gg/qk4nb5xR3K
 
+🔗 » Aqua Developement: https://discord.gg/mbeQDkcQg5
+
 👤 » Author: dani_void [dani_void2013]
 
 📑 » Template Version: none
