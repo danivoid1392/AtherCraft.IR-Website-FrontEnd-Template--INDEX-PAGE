@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AETHERCRAFT | سرور ماینکرفت</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    /* Reset */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    body, html {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #1f2937, #374151);
+      color: #f9fafb;
+      direction: rtl;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1100px;
+      margin: 3rem auto 4rem;
+      padding: 0 1rem;
+      text-align: center;
+    }
+
+    /* Header */
+    h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: clamp(3rem, 8vw, 5rem);
+      color: #e0a800;
+      margin-bottom: 0.2em;
+      letter-spacing: 0.1em;
+      border-bottom: 3px solid #e0a800;
+      display: inline-block;
+      padding-bottom: 0.15em;
+      user-select: none;
+    }
+    p.subtitle {
+      color: #d1d5db;
+      font-weight: 600;
+      font-size: clamp(1rem, 2.5vw, 1.5rem);
+      margin-bottom: 3rem;
+      font-style: italic;
+    }
+
+    /* Cards Container */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    /* Card */
+    .card {
+      background: #374151;
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgb(0 0 0 / 0.35);
+      color: #f9fafb;
+      width: 260px;
+      padding: 2rem 1.6rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      user-select: none;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgb(224 168 0 / 0.7);
+    }
+
+    /* Rank Title */
+    .card h2 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 1.8rem;
+      color: #fbbf24;
+      margin-bottom: 0.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      user-select: none;
+    }
+
+    /* Description */
+    .card p {
+      font-size: 1rem;
+      color: #d1d5db;
+      margin-bottom: 1.5rem;
+      min-height: 72px;
+      line-height: 1.4;
+    }
+
+    /* Price */
+    .price {
+      font-family: 'Roboto Slab', serif;
+      font-size: 2.2rem;
+      color: #fde68a;
+      font-weight: 700;
+      margin-bottom: 1.8rem;
+      user-select: text;
+    }
+
+    /* Buy Button */
+    .buy-btn {
+      background-color: #e0a800;
+      color: #1f2937;
+      border: none;
+      padding: 0.9rem 2.8rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.25s ease, color 0.25s ease;
+      user-select: none;
+    }
+    .buy-btn:hover,
+    .buy-btn:focus {
+      background-color: #c28700;
+      color: #fafaf9;
+      outline: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 850px) {
+      .cards {
+        justify-content: center;
+      }
+      .card {
+        width: 80vw;
+        max-width: 320px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-label="سرور ماینکرفت AETHERCRAFT">
+    <h1>AETHERCRAFT</h1>
+    <p class="subtitle">🔥 رنک بگیر، بدرخش، پادشاه دنیای شو!</p>
+
+    <section class="cards" aria-label="رنک‌های ویژه سرور">
+      <article class="card" role="region" aria-labelledby="rank1">
+        <h2 id="rank1">👑 Sponser</h2>
+        <p>بالاترین رتبه — نمایش ویژه در سرور — رنک طلایی با جلوهٔ بصری</p>
+        <div class="price">۱۵۰,۰۰۰ تومان</div>
+        <a class="buy-btn" href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" aria-label="خرید رنک Sponser از تلگرام">خرید از تلگرام</a>
+      </article>
+      <article class="card" role="region" aria-labelledby="rank2">
+        <h2 id="rank2">💠 AetherCraft</h2>
+        <p>رنک محبوب بازیکنان — جلوه‌های اختصاصی و نام در صفحهٔ بازیکنان</p>
+        <div class="price">۱۲۰,۰۰۰ تومان</div>
+        <a class="buy-btn" href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" aria-label="خرید رنک AetherCraft از تلگرام">خرید از تلگرام</a>
+      </article>
+      <article class="card" role="region" aria-labelledby="rank3">
+        <h2 id="rank3">🐉 Legend</h2>
+        <p>رنک افسانه‌ای با امتیازات و دسترسی‌های ویژه</p>
+        <div class="price">۹۰,۰۰۰ تومان</div>
+        <a class="buy-btn" href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" aria-label="خرید رنک Legend از تلگرام">خرید از تلگرام</a>
+      </article>
+      <article class="card" role="region" aria-labelledby="rank4">
+        <h2 id="rank4">💫 VIP</h2>
+        <p>دسترسی‌های ویژه داخل سرور و نشان VIP در پروفایل</p>
+        <div class="price">۷۰,۰۰۰ تومان</div>
+        <a class="buy-btn" href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" aria-label="خرید رنک VIP از تلگرام">خرید از تلگرام</a>
+      </article>
+      <article class="card" role="region" aria-labelledby="rank5">
+        <h2 id="rank5">🛡️ King</h2>
+        <p>رنک پایه برای تجربه بهتر با قیمت اقتصادی</p>
+        <div class="price">۳۰,۰۰۰ تومان</div>
+        <a class="buy-btn" href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer" aria-label="خرید رنک King از تلگرام">خرید از تلگرام</a>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
