@@ -1,4 +1,4 @@
-All pages are in the hands of the Codexy team, and soon other pages from this website will be uploaded one by one. Thank you for your support. Please give us a star!
+All pages are in the hands of the Codexy team and Aqua Developement, and soon other pages from this website will be uploaded one by one. Thank you for your support. Please give us a star!
 
 💻 » Website: https://aethercraft.ir/
 
